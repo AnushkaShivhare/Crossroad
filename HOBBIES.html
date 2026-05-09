@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gourmet Bistro Menu</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin: 0; padding: 20px; background-color: #f4f4f4; }
+        .menu-container { max-width: 800px; margin: auto; background: rgba(48, 46, 46, 0.708); padding: 30px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        h1 { text-align: center; color: #3333335c; border-bottom: 2px solid #e67e22; padding-bottom: 10px; }
+        h2 { color: #e67e22; border-bottom: 1px solid #ddd; margin-top: 30px; }
+        .menu-item { display: flex; justify-content: space-between; margin-bottom: 15px; border-bottom: 1px dashed #ccc; padding-bottom: 5px; }
+        .item-info { flex-grow: 1; }
+        .item-name { font-weight: bold; font-size: 1.1em; }
+        .item-description { font-style: italic; color: #666; font-size: 0.9em; margin-top: 2px; }
+        .item-price { font-weight: bold; color: #2c3e50; min-width: 60px; text-align: right; }
+    </style>
+</head>
+<body>
+
+<div class="menu-container">
+    <h1>Our Menu</h1>
+
+    <!-- Appetizers Section -->
+    <section>
+        <h2>Appetizers</h2>
+        <div class="menu-item">
+            <div class="item-info">
+                <div class="item-name">Garlic Bruschetta</div>
+                <div class="item-description">Toasted sourdough with vine-ripened tomatoes, garlic, and fresh basil.</div>
+            </div>
+            <div class="item-price">$8.50</div>
+        </div>
+        <div class="menu-item">
+            <div class="item-info">
+                <div class="item-name">Calamari Fritti</div>
+                <div class="item-description">Crispy squid rings served with a spicy marinara dipping sauce.</div>
+            </div>
+            <div class="item-price">$12.00</div>
+        </div>
+    </section>
+
+    <!-- Main Course Section -->
+    <section>
+        <h2>Main Courses</h2>
+        <div class="menu-item">
+            <div class="item-info">
+                <div class="item-name">Grilled Salmon</div>
+                <div class="item-description">Wild-caught salmon served with asparagus and lemon butter sauce.</div>
+            </div>
+            <div class="item-price">$24.00</div>
+        </div>
+        <div class="menu-item">
+            <div class="item-info">
+                <div class="item-name">Mushroom Risotto</div>
+                <div class="item-description">Creamy Arborio rice with porcini mushrooms and truffle oil.</div>
+            </div>
+            <div class="item-price">$18.50</div>
+        </div>
+    </section>
+</div>
+
+</body>
+</html>
